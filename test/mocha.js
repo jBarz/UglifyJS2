@@ -3,7 +3,7 @@ var Mocha = require('mocha'),
     path = require('path');
 
 // Instantiate a Mocha instance.
-var mocha = new Mocha({});
+var mocha = new Mocha({ timeout: 5000 });
 
 var testDir = __dirname + '/mocha/';
 
